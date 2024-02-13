@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 if [ -r "/etc/shadow" ]
 then
@@ -11,4 +11,4 @@ else
     echo "You do NOT have permissiones to edit /etc/shadow."
 fi
 
-sleep 1000
+sleep 3
